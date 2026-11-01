@@ -1404,5 +1404,6 @@ button {
 .u-mt-16 { margin-top: var(--sp-16); }
 .u-mt-24 { margin-top: var(--sp-24); }
 .u-fw-600 { font-weight: 600; }
+.demo-note { font-size: var(--fs-12); margin-left: var(--sp-4); }
 
 .u-items-start { align-items: start; }
