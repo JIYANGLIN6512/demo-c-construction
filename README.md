@@ -95,4 +95,11 @@ git -C E:\Code\demo-c-construction checkout <hash>  # 取回上一版本
 
 ## 八、线上访问
 
-（部署后填写：链接 / 托管位置 / 最后更新）
+| 项 | 值 |
+|---|---|
+| 线上链接 | <https://jiyanglin6512.github.io/demo-c-construction/> |
+| 托管 | GitHub Pages（源仓库 JIYANGLIN6512/demo-c-construction，公开仓库，免 ICP） |
+| 本地源码 | `E:\Code\demo-c-construction\`（git 版本库，`git log` 可回溯） |
+| 最后更新 | 2026-11-01 |
+
+**境内访问提示（已知限制）**：本机实测 GitHub Pages 首页首次打开 0.6–3.7 s，图片请求 2.4–4.6 s，另有一次 23 s 超时。已做的减负：全站图片转 WebP 并压到 739 KB、零外部请求、不加载任何第三方脚本与外部字体文件。**若客户反馈打开慢，迁到 Cloudflare 或香港节点即可，站点本身零改动。**
