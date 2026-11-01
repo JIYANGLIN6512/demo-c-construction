@@ -1099,6 +1099,10 @@ button {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   padding: var(--sp-12);
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  width: 100%;
 }
 
 .cert:hover {
@@ -1112,7 +1116,7 @@ button {
   border-radius: var(--radius);
 }
 
-.cert figcaption {
+.cert__caption {
   font-size: var(--fs-12);
   color: var(--text-muted);
 }
