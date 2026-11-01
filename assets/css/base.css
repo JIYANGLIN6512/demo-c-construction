@@ -9,9 +9,9 @@
   --brand-deep: #16293f;
   --brand-soft: #e9eef4;
 
-  /* ---- 强调色（1 个）：施工橙 ---- */
-  --accent: #d97b16;
-  --accent-soft: #fdf0e3;
+  /* ---- 强调色（1 个）：施工橙（加深以满足 12px 小字 4.5:1 对比度） ---- */
+  --accent: #a85405;
+  --accent-soft: #fbeedc;
 
   /* ---- 中性灰阶（4 级以上） ---- */
   --page: #f6f7f9;
