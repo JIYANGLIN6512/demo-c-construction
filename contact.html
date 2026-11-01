@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>联系我们 | 泉州恒川装饰工程（示例）</title>
+<meta name="description" content="联系恒川装饰工程（示例）：电话、邮箱、地址与服务区域、营业时间与留言表单，泉州惠安及周边。本站为行业演示样例，表单为演示功能。">
+<meta name="theme-color" content="#1f3a5f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true"></span>
+      恒川装饰工程<span class="brand__sub">（示例）</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航菜单">
+      <span aria-hidden="true"></span>
+    </button>
+    <nav class="nav" id="site-nav" hidden aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="services.html">业务服务</a>
+      <a href="cases.html">案例业绩</a>
+      <a href="qualifications.html">资质专页</a>
+      <a href="contact.html" aria-current="page">联系我们</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">联系我们</p>
+        <h1 class="display">打个电话，<br>或者约个时间<br>上门量房。</h1>
+        <p class="lede">现量现谈：户型、面积、怎么用，说清了我给一份分项报价。当天回你三件事——能不能做、大概多少钱、什么时候能开工。</p>
+        <div class="stack-16 u-measure">
+          <div>
+            <div class="small">电话</div>
+            <a href="tel:+8659522166688" class="u-fw-600">0595-2216-6688</a>
+          </div>
+          <div>
+            <div class="small">邮箱</div>
+            <a href="mailto:service@hengchuanzhuangxi.com" class="u-fw-600">service@hengchuanzhuangxi.com</a>
+          </div>
+          <div>
+            <div class="small">办公地址</div>
+            <p class="body-text">福建省泉州市惠安县螺城镇世纪大道 88 号 3 层（示例）</p>
+          </div>
+          <div>
+            <div class="small">服务区域</div>
+            <p class="body-text">惠安、泉州城区、晋江、南安；超出 25 公里另行评估</p>
+          </div>
+          <div>
+            <div class="small">服务时间</div>
+            <p class="body-text">周一至周六 08:30–18:00（工地巡查按约定时间安排）</p>
+          </div>
+        </div>
+      </div>
+      <figure class="hero__media">
+        <img src="assets/img/contact-site.webp" alt="园区内的现代办公楼外观，步道与绿化带两旁" data-search="办公园区 办公楼 外景 绿化" width="1600" height="1067" fetchpriority="high" decoding="async">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 表单 -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">在线留言</p>
+        <h2 class="h2">把房子的情况写下来</h2>
+        <p class="body-text">带 * 为必填。写清面积、户型和打算怎么用，我们回报价更快。</p>
+      </div>
+
+      <form class="form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="f-name">称呼 *</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" placeholder="怎么称呼你">
+          <span class="field__error" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="f-contact">邮箱或手机 *</label>
+          <input id="f-contact" name="contact" type="text" autocomplete="email" placeholder="用于回报价">
+          <span class="field__error" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="f-type">需求类型</label>
+          <select id="f-type" name="type">
+            <option>住宅整装</option>
+            <option>厨卫与定制柜体</option>
+            <option>办公与商业空间</option>
+            <option>水电与设备安装</option>
+            <option>其他</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-message">需求描述 *</label>
+          <textarea id="f-message" name="message" placeholder="房子在哪、面积多大、准备怎么用、什么时候想开工"></textarea>
+          <span class="field__error" aria-live="polite"></span>
+        </div>
+        <div>
+          <button class="btn btn--primary" type="submit">提交需求</button>
+        </div>
+        <p class="form__status" id="form-status" role="status" hidden></p>
+        <p class="form__note"><b>演示用，提交不会发送</b>：这是行业演示样例，表单没有接真实接口，填的内容不会到达任何人。</p>
+        <p class="form__note">提交即表示同意我方按<a href="#privacy">隐私说明</a>使用您的联系方式，仅用于本次咨询回复。</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 到访方式 -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">到访与联系方式</p>
+        <h2 class="h2">先来一趟，量完房再谈</h2>
+      </div>
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>自驾</h3>
+          <p>导航搜索「世纪大道 88 号」，园区北门进入，3 层在左手第二栋，楼下有访客停车位。</p>
+          <p class="card__meta">到访请提前一个工作日预约</p>
+        </div>
+        <div class="card">
+          <h3>公共交通</h3>
+          <p>惠安汽车站下车转乘公交 2 路至「世纪大道」站，步行约 5 分钟；也可直接到店先看材料样板。</p>
+          <p class="card__meta">材料样板在工作日随时可看</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 隐私说明（站内段落） -->
+  <section class="section section--tight" id="privacy">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">隐私说明</p>
+        <h2 class="h2">我们怎么用你留的信息</h2>
+      </div>
+      <div class="card">
+        <ul class="tick-list">
+          <li>收集范围：你在表单里填写的称呼、邮箱或手机号，以及描述里提到的房屋情况。</li>
+          <li>使用目的：仅用于回复本次咨询、安排上门量房与出具报价。</li>
+          <li>保存期限：咨询结束后按约定时间删除，不转作其他用途，不向第三方提供。</li>
+          <li>你的权利：随时要求查询、更正或删除，可在回复里直接说明。</li>
+        </ul>
+        <p class="card__meta">本页为演示样例，正式上线时替换为实际隐私政策全文与备案主体信息。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <a class="brand u-mb-12" href="index.html">
+          <span class="brand__mark" aria-hidden="true"></span>
+          恒川装饰工程<span class="brand__sub">（示例）</span>
+        </a>
+        <p class="small u-max-44">住宅整装、厨卫定制、商业空间与机电安装的施工交付。</p>
+      </div>
+      <div>
+        <h3 class="footer__label">业务</h3>
+        <ul>
+          <li><a href="services.html">住宅整装</a></li>
+          <li><a href="services.html">厨卫与定制</a></li>
+          <li><a href="services.html">商业空间</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__label">联系</h3>
+        <ul>
+          <li><a href="tel:+8659522166688">0595-2216-6688</a></li>
+          <li><a href="mailto:service@hengchuanzhuangxi.com">service@hengchuanzhuangxi.com</a></li>
+          <li><a href="contact.html">预约量房</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span class="tiny">© <span id="year">2026</span> 恒川装饰工程（示例）　保留所有权利</span>
+      <span class="tiny">备案号：待备案</span>
+      <span class="tiny">本网站为演示样例，非真实企业</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
